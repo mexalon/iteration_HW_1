@@ -2,6 +2,10 @@ import os
 import hashlib
 from stuff.config import *
 import json
+from my_decorator import decorator
+from pprint import pprint
+
+
 
 sf = source_file_path
 tf = target_file_path
@@ -57,6 +61,7 @@ def del_file(file_name: str):
         os.remove(path)
 
 
+@decorator(log, log_file_path)
 def hw_1(source_filename: str, target_filename: str, url):
     """Первое задание"""
     del_file(target_filename)
@@ -76,6 +81,7 @@ def my_generator(some_file: str):
             line = f.readline()
 
 
+@decorator(log, log_file_path)
 def hw_2(source_filename: str, target_filename: str):
     """Второе задание"""
     del_file(target_filename)
@@ -86,5 +92,8 @@ def hw_2(source_filename: str, target_filename: str):
 
 
 if __name__ == '__main__':
+    del_file(log_file_path)
     hw_1(sf, tf, wiki_url)
     hw_2(tf, hf)
+
+    pprint(log)
