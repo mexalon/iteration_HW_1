@@ -1,2 +1,2 @@
-Thu Mar 18 10:14:55 2021 : вызов hw_1 : {'start time': 'Thu Mar 18 10:14:55 2021', 'delay': 5.39, 'arguments': [('countries.json', 'result.md', 'https://en.wikipedia.org/wiki/'), {}], 'result': None}
-Thu Mar 18 10:14:55 2021 : вызов hw_2 : {'start time': 'Thu Mar 18 10:14:55 2021', 'delay': 0.125, 'arguments': [('result.md', 'result_hash.txt'), {}], 'result': None}
+Thu Mar 18 20:13:48 2021 : вызов hw_1 : {'start time': 'Thu Mar 18 20:13:48 2021', 'delay': 5.526, 'arguments': [('countries.json', 'result.md', 'https://en.wikipedia.org/wiki/'), {}], 'result': None}
+Thu Mar 18 20:13:54 2021 : вызов hw_2 : {'start time': 'Thu Mar 18 20:13:54 2021', 'delay': 0.11, 'arguments': [('result.md', 'result_hash.txt'), {}], 'result': None}

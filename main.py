@@ -5,8 +5,6 @@ import json
 from my_decorator import decorator
 from pprint import pprint
 
-
-
 sf = source_file_path
 tf = target_file_path
 hf = hash_file_path

@@ -10,7 +10,7 @@ def decorator(my_log: dict, path: str):
             result = foo(*args, **kwargs)
             delay = time.time() - start_time
             report = {
-                'start time': time.ctime(),
+                'start time': time.ctime(start_time),
                 'delay': delay.__round__(4),
                 'arguments': [args, kwargs],
                 'result': result}
